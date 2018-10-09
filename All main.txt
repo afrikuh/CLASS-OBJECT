@@ -1,0 +1,182 @@
+package TUGASLAGI;
+
+public class Hasil {
+
+	public static void main(String[] args) {
+		Kotak kotakKuning = new Kotak();
+		
+		kotakKuning.setPanjang(8);
+		kotakKuning.setLebar(5);
+		
+		kotakKuning.hitungLuas();
+		kotakKuning.hitungKeliling();
+	
+		System.out.println("Panjang : " + kotakKuning.getPanjang());
+		System.out.println("Lebar : " + kotakKuning.getLebar());
+		System.out.println("LuasKotak : " + kotakKuning.getLuas());
+		System.out.println("KelilingKotak " + kotakKuning.getKeliling());
+		System.out.println("___________________________________________");
+	}
+
+}
+
+package TUGASLAGI;
+
+public class HasilMHS {
+
+	public static void main(String[] args) {
+		//Hasil Mahasiswa
+		Mahasiswa informatika = new Mahasiswa();
+		informatika.setNama("Afriandi");
+		informatika.setNim("D0217003");
+		informatika.setAlamat("Tapalang");
+		informatika.setGolonganDarah("B");
+		informatika.setStatus("Mahasiswa");
+		informatika.setTinggiBadan(165);
+		informatika.setBeratBadan(60);
+		
+		System.out.println("Nama : " + informatika.getNama());
+		System.out.println("Nim : " + informatika.getNim());
+		System.out.println("Alamat : " + informatika.getAlamat());
+		System.out.println("GolonganDarah : " + informatika.getGolonganDarah());
+		System.out.println("Status : " + informatika.getStatus());
+		System.out.println("TinggiBadan : " + informatika.getTinggiBadan());
+		System.out.println("BeratBadan : " + informatika.getBeratBadan());
+		System.out.println("---------------------------------------------");
+
+	}
+
+}
+
+
+package TUGASLAGI;
+
+public class NodeMain {
+
+	public static void main(String[] args) {
+		Node Nodeku = new Node();
+		
+		Nodeku.setLabel("Umur Afriandi");
+		Nodeku.setValue(20);
+		
+		System.out.println( Nodeku.getLabel());
+		System.out.println("Tahun : " + Nodeku.getValue());
+	}
+
+}
+
+
+package TUGASLAGI;
+
+public class StackMain {
+
+	public static void main(String[] args) {
+		Stack Stack1 = new Stack();
+		System.out.println("________________");
+		Stack1.Value[0] = "Bigboss Afriandi";
+		Stack1.Value[1] = "Bigboss Afri";
+		Stack1.Value[2] = "Bigboss andi";
+		Stack1.Value[3] = "Bigboss Ari";
+		Stack1.Value[4] = "Bigboss rian";
+		Stack1.Value[5] = "Bigboss andri";
+		Stack1.Value[6] = "Bigboss akumi";
+		Stack1.Value[7] = "Bigboss gagah";
+		Stack1.Value[8] = "Bigboss limaku";
+		Stack1.Value[9] = "Bigboss makah";
+		Stack1.Value[10] = "Bigboss afrag";
+		Stack1.Value[11] = "Bigboss dir";
+		Stack1.Value[12] = "Bigboss kahag";
+		Stack1.Value[13] = "Bigboss agahay";
+		Stack1.Value[14] = "Bigboss cagaj";
+		Stack1.Value[15] = "Bigboss andfr";
+		Stack1.Value[16] = "Bigboss sanagar";
+		Stack1.Value[17] = "Bigboss afran";
+		Stack1.Value[18] = "Bigboss Afriandi";
+		Stack1.Value[19] = "Bigboss Afriandi";
+		Stack1.Value[20] = "Bigboss Afriandi";
+		Stack1.Value[21] = "Bigboss Afriandi";
+		Stack1.Value[22] = "Bigboss Afriandi";
+		Stack1.Value[23] = "Bigboss Afriandi";
+		Stack1.Value[24] = "Bigboss Afriandi";
+		Stack1.Value[25] = "Bigboss Afriandi";
+		Stack1.Value[26] = "Bigboss Afriandi";
+		Stack1.Value[27] = "Bigboss Afriandi";
+		Stack1.Value[28] = "Bigboss Afriandi";
+		Stack1.Value[29] = "Bigboss Afriandi";
+		Stack1.Value[30] = "Bigboss Afriandi";
+		Stack1.Value[31] = "Bigboss Afriandi";
+		Stack1.Value[32] = "Bigboss Afriandi";
+		Stack1.Value[33] = "Bigboss Afriandi";
+		Stack1.Value[34] = "Bigboss Afriandi";
+		Stack1.Value[35] = "Bigboss Afriandi";
+		Stack1.Value[36] = "Bigboss Afriandi";
+		Stack1.Value[37] = "Bigboss Afriandi";
+		Stack1.Value[38] = "Bigboss Afriandi";
+		Stack1.Value[39] = "Bigboss Afriandi";
+		Stack1.Value[40] = "Bigboss Afriandi";
+		Stack1.Value[41] = "Bigboss Afriandi";
+		Stack1.Value[42] = "Bigboss Afriandi";
+		Stack1.Value[43] = "Bigboss Afriandi";
+		Stack1.Value[44] = "Bigboss Afriandi";
+		Stack1.Value[45] = "Bigboss Afriandi";
+		Stack1.Value[46] = "Bigboss Afriandi";
+		Stack1.Value[47] = "Bigboss Afriandi";
+		Stack1.Value[48] = "Bigboss Afriandi";
+		Stack1.Value[49] = "Bigboss Afriandi";
+		Stack1.Value[50] = "Bigboss Afriandi";
+		Stack1.Value[51] = "Bigboss Afriandi";
+		Stack1.Value[52] = "Bigboss Afriandi";
+		Stack1.Value[53] = "Bigboss Afriandi";
+		Stack1.Value[54] = "Bigboss Afriandi";
+		Stack1.Value[55] = "Bigboss Afriandi";
+		Stack1.Value[56] = "Bigboss Afriandi";
+		Stack1.Value[57] = "Bigboss Afriandi";
+		Stack1.Value[58] = "Bigboss Afriandi";
+		Stack1.Value[59] = "Bigboss Afriandi";
+		Stack1.Value[60] = "Bigboss Afriandi";
+		Stack1.Value[61] = "Bigboss Afriandi";
+		Stack1.Value[62] = "Bigboss Afriandi";
+		Stack1.Value[63] = "Bigboss Afriandi";
+		Stack1.Value[64] = "Bigboss Afriandi";
+		Stack1.Value[65] = "Bigboss Afriandi";
+		Stack1.Value[66] = "Bigboss Afriandi";
+		Stack1.Value[67] = "Bigboss Afriandi";
+		Stack1.Value[68] = "Bigboss Afriandi";
+		Stack1.Value[69] = "Bigboss Afriandi";
+		Stack1.Value[70] = "Bigboss Afriandi";
+		Stack1.Value[71] = "Bigboss Afriandi";
+		Stack1.Value[72] = "Bigboss Afriandi";
+		Stack1.Value[73] = "Bigboss Afriandi";
+		Stack1.Value[74] = "Bigboss Afriandi";
+		Stack1.Value[75] = "Bigboss Afriandi";
+		Stack1.Value[76] = "Bigboss Afriandi";
+		Stack1.Value[77] = "Bigboss Afriandi";
+		Stack1.Value[78] = "Bigboss Afriandi";
+		Stack1.Value[79] = "Bigboss Afriandi";
+		Stack1.Value[80] = "Bigboss Afriandi";
+		Stack1.Value[81] = "Bigboss Afriandi";
+		Stack1.Value[82] = "Bigboss Afriandi";
+		Stack1.Value[83] = "Bigboss Afriandi";
+		Stack1.Value[84] = "Bigboss Afriandi";
+		Stack1.Value[85] = "Bigboss Afriandi";
+		Stack1.Value[86] = "Bigboss Afriandi";
+		Stack1.Value[87] = "Bigboss Afriandi";
+		Stack1.Value[88] = "Bigboss Afriandi";
+		Stack1.Value[89] = "Bigboss Afriandi";
+		Stack1.Value[90] = "Bigboss Afriandi";
+		Stack1.Value[91] = "Bigboss Afriandi";
+		Stack1.Value[92] = "Bigboss Afriandi";
+		Stack1.Value[93] = "Bigboss Afriandi";
+		Stack1.Value[94] = "Bigboss Afriandi";
+		Stack1.Value[95] = "Bigboss Afriandi";
+		Stack1.Value[96] = "Bigboss Afriandi";
+		Stack1.Value[97] = "Bigboss Afriandi";
+		Stack1.Value[98] = "Bigboss Afriandi";
+		Stack1.Value[99] = "Bigboss Afriandi";
+	
+		Stack1.setValueAt(7, "Afriandikuh");
+		for(int i=0;i<Stack1.Value.length;i++)
+		{System.out.println(Stack1.Value[i]);};
+	}
+
+}
